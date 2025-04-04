@@ -4,6 +4,7 @@ with open ("Palavras.txt","r") as arquivo:
     palavras_disponiveis = arquivo.read()
     palavras_disponiveis = palavras_disponiveis.lower()
     palavras_disponiveis = palavras_disponiveis.replace(","," ")
+    palavras_disponiveis = palavras_disponiveis.replace("."," ")
     palavras_disponiveis = palavras_disponiveis.split()
     for palavra in palavras_disponiveis:
         if len(palavra) != 5:
