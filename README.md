@@ -1,4 +1,4 @@
-#Jogo da Forca
+# Jogo da Forca
 Afim de por em prática os conhecimentos adquiridos em Python,
 criou-se um jogo de forca.
 O programa conta com um sistema de menu, bem como uma um sistema de estatística,
